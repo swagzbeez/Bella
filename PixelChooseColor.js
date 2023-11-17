@@ -24,7 +24,7 @@ function Pixel() {
   const classes = useStyles();
   const [showColorPicker, setShowColorPicker] = useState(false);
   const [pixelColor, setPixelColor] = useState('#fff');
-  const [selectedColor, setSelectedColor] = useState('#000'); // Default color
+  const [selectedColor, setSelectedColor] = useState('#000'); 
 
   const toggleColorPicker = () => {
     setShowColorPicker(!showColorPicker);
@@ -38,7 +38,7 @@ function Pixel() {
 
   const resetColor = () => {
     setPixelColor('#fff');
-    setSelectedColor('#000'); // Reset to default color
+    setSelectedColor('#000'); 
     setShowColorPicker(false);
   };
 
